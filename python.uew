@@ -1,4 +1,8 @@
 /L20"Python" PYTHON_LANG Line Comment = # Escape Char = \ String Literal Prefix = r File Extensions = PY PYW
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Classes"
 /TGFindStr = "^[ \t]*class[ \t]+([^:\r\n]*)\("
@@ -21,7 +25,7 @@
 /Delimiters = !@%^&*()-+=|\/{}[]:;"'`<> ,	.
 /Open Brace Strings = "(" "[" "{"
 /Close Brace Strings = ")" "]" "}"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 and as assert
 break
 class continue
@@ -38,7 +42,7 @@ raise return
 try
 while with
 yield
-/C2"Built-in Functions" STYLE_FUNCTION
+/C2"Built-in Functions" STYLE_FUNCTION Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Ellipsis
 False
 None NotImplemented
@@ -65,7 +69,7 @@ unichr unicode
 vars
 xrange
 zip
-/C3"Methods" STYLE_METHOD
+/C3"Methods" STYLE_METHOD Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Decimal
 __abs__ __add__ __and__ __call__ __cmp__ __coerce__ __contains__ __del__ __delattr__ __delitem__
 __delslice__ __div__ __divmod__ __eq__ __float__ __floordiv__ __ge__ __getattribute__ __getitem__
@@ -96,10 +100,10 @@ union update upper
 values
 write writelines
 zfill
-/C4"Attributes" STYLE_ATTRIBUTE
+/C4"Attributes" STYLE_ATTRIBUTE Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 __author__ __bases__ __class__ __dict__ __doc__ __email__ __members__ __methods__ __name__ __slots__
 __version__
-/C5"Exceptions"
+/C5"Exceptions" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ArithmeticError AssertionError AttributeError
 BaseException
 DeprecationWarning
@@ -121,7 +125,7 @@ UserWarning
 ValueError
 Warning WindowsError
 ZeroDivisionError
-/C6"Operators" STYLE_OPERATOR
+/C6"Operators" STYLE_OPERATOR Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !
 %
 &
@@ -135,7 +139,7 @@ ZeroDivisionError
 ^
 |
 ~
-/C7"Common Libs"
+/C7"Common Libs" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 .ElementTree .ascii .ast .audio .base .charset .dom .encoders .errors .etree .expat .generator .handler
 .handlers .header .headers .idna .image .iterators .message .mime .minidom .multipart .nonmultipart .panel
 .parser .parsers .path .pulldom .sax .saxutils .simple_server .stats .test_support .text .textpad .util
@@ -183,5 +187,5 @@ unicodedata unittest urllib urllib2 urlparse user uu uuid
 warnings wave weakref webbrowser whichdb winsound wsgiref
 xdrlib xml xmlrpclib
 zipimport zlib
-/C8"Others"
+/C8"Others" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 self

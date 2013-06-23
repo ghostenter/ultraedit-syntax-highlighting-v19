@@ -1,4 +1,8 @@
 /L4"Java" JAVA_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = JAV JAVA
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Imports"
 /TGFindStr = "^import([ \t]+[a-z0-9\.\*]+);"
@@ -31,7 +35,7 @@
 /Close Brace Strings = "}" ")" "]" ">"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 abstract
 boolean break byte
 case catch char class continue
@@ -47,7 +51,7 @@ short static super switch synchronized
 this threadsafe throw throws transient true try
 void
 while
-/C2"Classes" STYLE_FUNCTION
+/C2"Classes" STYLE_FUNCTION Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 AWTError AWTEvent AWTEventMulticaster AWTException AbstractMethodError AccessException Acl AclEntry
 AclNotFoundException ActionEvent ActionListener Adjustable AdjustmentEvent AdjustmentListener Adler32
 AlreadyBoundException Applet AppletContext AppletStub AreaAveragingScaleFilter ArithmeticException Array
@@ -130,7 +134,7 @@ UnsupportedFlavorException
 VMID Vector VerifyError VetoableChangeListener VetoableChangeSupport VirtualMachineError Visibility Void
 Window WindowAdapter WindowEvent WindowListener WindowPeer WriteAbortedException Writer
 ZipEntry ZipException ZipFile ZipInputStream ZipOutputStream
-/C3"Operators" STYLE_OPERATOR
+/C3"Operators" STYLE_OPERATOR Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !
 %
 &

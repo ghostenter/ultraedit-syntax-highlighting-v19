@@ -1,9 +1,13 @@
 /L6"XML" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = XML XUL XSD XSL XSLT WSDL CONFIG SSS
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Delimiters = ~@$^&*( )+=|\{};"'<>	,
 /Function String = "name=*">"
 /Open Brace Strings =  "{" "(" "[" "<"
 /Close Brace Strings = "}" ")" "]" ">"
-/C1"Elements" STYLE_ELEMENT
+/C1"Elements" STYLE_ELEMENT Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ** <
 <a </a> <abbr> <abbr </abbr> <above> <abstract> </abstract> <acronym> </acronym> <activity> </activity>
 <actor> <actor </actor> <add> <add </add> <addName </addName> <addSpan <addrLine> <address> <address
@@ -141,7 +145,7 @@
 <? <?xml
 ]]>
 <![CDATA[
-/C2"Attributes" STYLE_ATTRIBUTE
+/C2"Attributes" STYLE_ATTRIBUTE Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 -
 24hour=
 =
@@ -187,7 +191,7 @@ valign= value= valueTo= varSeq= version= vlink= vspace=
 weights= where= who= width= wit= wscale= wsd=
 xl-role= xl-title= xml:link= xmlns xmlns:cmi xmlns:dt
 zone=
-/C3"Commands" STYLE_COMMAND
+/C3"Commands" STYLE_COMMAND Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 edit else enjamb
 for function
 global globincl
@@ -196,15 +200,15 @@ return
 then
 var
 while
-/C4"MSXMS schema nodes"
+/C4"MSXMS schema nodes" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 <AttributeType </AttributeType>
 <ElementType </ElementType>
 <Schema </Schema>
-/C5"MSXMS schema attributes"
+/C5"MSXMS schema attributes" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 <attribute> <attribute </attribute>
-/C6"MSXMS schema element list"
+/C6"MSXMS schema element list" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 <element> <element </element> /element>
-/C7"WSDL Schema attributes"
+/C7"WSDL Schema attributes" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 attributeFormDefault
 default
 element

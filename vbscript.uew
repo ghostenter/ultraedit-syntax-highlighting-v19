@@ -1,4 +1,8 @@
 /L10"VBScript ASP" Nocase ASP_LANG Line Comment = ' Line Comment Alt = REM Block Comment On = /* Block Comment Off = */ Block Comment On Alt = <!-- Block Comment Off Alt = --> String Chars = " File Extensions = VBS
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Delimiters = ~!@^&*()-+=|\{}[]:;"'<> ,	.?
 /Regexp Type = Perl
 /TGBegin "Functions"
@@ -20,10 +24,10 @@
 /Open Fold Strings = "Do While" "If" "ElseIf" "Function" "Sub" "With" "For" "Select Case" "Case Else" "Case" "Else"
 /Close Fold Strings = "ElseIf" "End If" "End Function" "End Sub" "End With" "Loop" "Next" "Wend" "End Select" "Case Else" "Case" "Else"
 /Ignore Fold Strings = "Exit Function" "Exit Sub" "Exit For" "Declare Function" "Continue For"
-/C1"Tags" STYLE_TAG
+/C1"Tags" STYLE_TAG Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 %>
 <%
-/C2"VBFunctions" STYLE_FUNCTION
+/C2"VBFunctions" STYLE_FUNCTION Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 &
 Abs Array Asc AscB AscW Atn Avg
 CBool CByte CCur CDate CDbl Cdec Choose Chr ChrB ChrW CInt CLng Command Cos Count CreateObject CSng CStr
@@ -48,7 +52,7 @@ UBound UCase
 Val Var VarP VarType
 Weekday
 Year
-/C3"VBMethods" STYLE_METHOD
+/C3"VBMethods" STYLE_METHOD Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Accept Activate Add AddCustom AddFile AddFromFile AddFromTemplate AddItem AddNew AddToAddInToolbar
 AddToolboxProgID Append AppendChunk Arrange Assert AsyncRead
 BatchUpdate BeginTrans Bind Buffer
@@ -88,7 +92,7 @@ TextHeight TextWidth Timeout ToDefaults TwipsToChartPart TypeByChartType
 Update UpdateControls UpdateRecord UpdateRow Upto URLEncode
 WhatsThisMode Write WriteProperty
 ZOrder
-/C4"VBEvents" STYLE_EVENT
+/C4"VBEvents" STYLE_EVENT Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 AccessKeyPress AddHeader AfterAddFile AfterChangeFileName AfterCloseFile AfterColEdit AfterColUpdate
 AfterDelete AfterInsert AfterLabelEdit AfterRemoveFile AfterUpdate AfterWriteFile AmbienChanged
 AppendToLog ApplyChanges Associate AsyncReadComplete AxisActivated AxisLabelActivated AxisLabelSelected
@@ -126,7 +130,7 @@ UnboundAddData UnboundDeleteRow UnboundGetRelativeBookmark UnboundReadData Unbou
 Updated
 Validate ValidationError
 WillAssociate WillChangeData WillDissociate WillExecute WillUpdateRows WriteProperties
-/C5"VBStatements" STYLE_STATEMENT
+/C5"VBStatements" STYLE_STATEMENT Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 AppActivate
 Base Beep
 Call Case ChDir ChDrive Const
@@ -147,7 +151,7 @@ SavePicture SaveSetting SendKeys SetAttr Static Step Sub
 Then To Type
 Unlock
 Wend While Width With
-/C6"Objects"
+/C6"Objects" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Application
 ClientCertificate Cookies
 Form
@@ -155,7 +159,7 @@ ObjectContext
 QueryString
 Request Response
 Server ServerVariables Session
-/C7"Constants"
+/C7"Constants" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 CDROM
 False Fixed ForAppending ForReading ForWriting
 RAMDisk Remote Removable

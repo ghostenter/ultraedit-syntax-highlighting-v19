@@ -1,4 +1,8 @@
 /L1"C/C++" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC CXX H HPP AWK
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Typedefs"
 /TGFindStr = "^[ \t]*typedef[ \t]+(?:struct|union|enum)[ \t]+(?:\w+[ \t]+)?\{(?s:.+?)\}[ \t]*(\w+);"
@@ -45,7 +49,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 #define #elif #else #endif #error #if #ifdef #ifndef #include #include_next #line #pragma #undef
 __asm __based __cdecl __declspec __except __far __fastcall __finally __fortran __huge __inline __int16
 __int32 __int64 __int8 __interrupt __leave __loadds __near __pascal __saveregs __segment __segname __self
@@ -65,7 +69,7 @@ typedef
 union unsigned
 void volatile
 while
-/C2"C++ Keywords" STYLE_KEYWORD
+/C2"C++ Keywords" STYLE_KEYWORD Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 __multiple_inheritance __single_inheritance __virtual_inheritance
 catch class const_cast
 delete dynamic_cast
@@ -82,12 +86,12 @@ template this throw true try typeid typename
 using
 virtual
 wchar_t
-/C3"Microsoft C extensions" STYLE_EXTENSION
+/C3"Microsoft C extensions" STYLE_EXTENSION Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 dllexport dllimport
 naked
 thread
 uuid
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators" STYLE_OPERATOR Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !
 $
 %
@@ -105,7 +109,7 @@ $
 ^
 |
 ~
-/C5"Braces, comma, semicolon"
+/C5"Braces, comma, semicolon" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 (
 )
 ,

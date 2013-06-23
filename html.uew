@@ -1,4 +1,8 @@
 /L3"HTML" HTML_LANG Nocase Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = HTM HTML SHTML HTT HTA HTX CFM JSP PHP PHTML ASP TMPL ASAX ASHX ASMX ASPX ASCX
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
 /Function String = "\<form.*\>"
@@ -8,7 +12,7 @@
 /Unindent Strings = "</"
 /Open Brace Strings =  "{" "(" "[" "<"
 /Close Brace Strings = "}" ")" "]" ">"
-/C1"Tags" STYLE_TAG
+/C1"Tags" STYLE_TAG Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 <a </a> <abbr> <abbr </abbr> <above> <address> <address </address> <area </area <array> <article> 
 <article </article> <aside> <aside </aside> <audio> <audio </audio>
 <b> <b </b> <base <bdo> <bdo </bdo> <bgsound <blink> <blink </blink> <blockquote> <blockquote 
@@ -46,7 +50,7 @@
 <xmp> </xmp>
 // />
 >
-/C2"Attributes" STYLE_ATTRIBUTE
+/C2"Attributes" STYLE_ATTRIBUTE Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 abbr= accept-charset= accept= accesskey= action= align= alink= alt= archive= aria-*= async= autocomplete autofocus= autoplay= axis=
 background= behavior behavior> below below> bgcolor= border=
 cellpadding= cellspacing= challenge= char= charoff= charset= checked checked> cite= class= classid= clear= code= codebase= codetype= color= cols= colspan= compact compact> content= contenteditable= contextmenu= controls= coords=
@@ -68,7 +72,7 @@ url= usemap=
 valign= value= valuetype= version= vlink= vspace=
 week= width=
 =
-/C3"Special Characters"
+/C3"Special Characters" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 &aacute &acirc &acute &aelig &agrave &alefsym &alpha &amp &and &ang &aring &asymp &atilde &auml
 &bdquo &beta &brvbar &bull
 &cap &ccedil &cedil &cent &chi &circ &clubs &cong &copy &crarr &cup &curren

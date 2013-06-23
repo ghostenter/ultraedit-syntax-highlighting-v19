@@ -1,4 +1,8 @@
-/L5"Perl" PERL_LANG EnableMLS Line Comment = # Block Comment On = =pod Block Comment Off = =cut Line Comment Preceding Chars = [~[^]^^$/\(] Escape Char = \ File Extensions = CGI PL PM PLX
+/L5"Perl" PERL_LANG EnableMLS Line Comment = # Block Comment On = =head Block Comment Off = =cut Line Comment Preceding Chars = [~[^]^^$/\(] Escape Char = \ File Extensions = CGI PL PM PLX T
+/Colors = 16777215,10854204,10854204,2847433,5477292,
+/Colors Back = 199958,199958,199958,199958,199958,
+/Colors Auto Back = 0,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?\`/
 /Regexp Type = Perl
 /TGBegin "Use Declarations"
@@ -19,7 +23,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords" STYLE_KEYWORD Colors = 5616098 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 -A -B -C -M -O -R -S -T -W -X -b -c -d -e -f -g -k -l -o -p -r -s -t -u -w -x -z
 continue
 do
@@ -36,7 +40,7 @@ redo require return
 sub
 unless until use
 while
-/C2"Functions" STYLE_FUNCTION
+/C2"Functions" STYLE_FUNCTION Colors = 8421616 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 accept alarm atan2
 bind binmode bless
 caller chdir chmod chomp chop chown chr chroot close closedir connect cos crypt
@@ -65,7 +69,7 @@ tell telldir tie tied time times truncate
 uc ucfirst umask undef unlink unpack unshift untie utime
 values vec
 wait waitpid wantarray warn write
-/C3"Methods" STYLE_METHOD
+/C3"Methods" STYLE_METHOD Colors = 10578982 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 AUTOLOAD
 BEGIN
 CHECK CLEAR CLOSE CORE
@@ -96,7 +100,7 @@ sigtrap strict subs
 utf8
 vars
 warnings
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators" STYLE_OPERATOR Colors = 2763429 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 !
 &
 *
@@ -122,7 +126,7 @@ x xor
 y
 |
 ~
-/C5"CGI Funcs"
+/C5"CGI Funcs" Colors = 14668713 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 Accept
 CGI Carp
 TR Tr
@@ -145,7 +149,7 @@ start_html start_multipart_form start_table start_ul startform strong submit
 table td textarea textfield th tmpFileName
 ul unescape unescapeHTML upload uploadInfo url url_param use_named_parameters user_agent user_name
 virtual_host
-/C6"CGI Parms"
+/C6"CGI Parms" Colors = 14668713 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 -BGCOLOR -absolute -action -align -alt -author -background -base -bgcolor -border -boundary -cellpadding
 -cellspacing -checked -class -code -colheader -color -colspan -columns -compact -content -cookie -default
 -domain -dtd -expires -face -full -head -height -href -justification -label -labels -language -leftmargin
@@ -155,7 +159,7 @@ virtual_host
 -rows -rowspan -script -secure -selected -size -src -status -style -target -title -topmargin -type -uri
 -url -valign -value -values -width -wrap -xbase
 onmouseout onmouseover
-/C7"DBI"
+/C7"DBI" Colors = 2847180 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 DBI
 LongReadLen
 bind_col bind_parm
@@ -163,7 +167,7 @@ disconnect dump_results
 errstr execute
 fetch finish
 prepare
-/C8"Variables"
+/C8"Variables" Colors = 14668713 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 $
 %
 @

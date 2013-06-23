@@ -1,4 +1,8 @@
 /L8"PHP" PHP_LANG Nocase EnableMLS Line Comment = // Line Comment Alt = # Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = INC PHP3 PHP4 PHP5
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Requires"
 /TGFindStr = "^require([ \t]+[\^\$a-z_/\^"'0-9\.\*]+);"
@@ -31,7 +35,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Control Structures" STYLE_KEYWORD
+/C1"Control Structures" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ;
 break
 case continue
@@ -44,12 +48,12 @@ switch
 while
 {
 }
-/C2"Tags" STYLE_TAG
+/C2"Tags" STYLE_TAG Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 <? <?PHP
 ?>
-/C3"Variables" STYLE_VARIABLE
+/C3"Variables" STYLE_VARIABLE Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ** $ &
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators" STYLE_OPERATOR Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !
 %
 &
@@ -75,7 +79,7 @@ XOR
 ]
 )
 (
-/C5"Built-in Functions" STYLE_FUNCTION
+/C5"Built-in Functions" STYLE_FUNCTION Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ArrayIterator_current ArrayIterator_key ArrayIterator_next ArrayIterator_rewind ArrayIterator_seek
 ArrayIterator_valid ArrayObject_append ArrayObject_construct ArrayObject_count ArrayObject_getIterator
 ArrayObject_offsetExists ArrayObject_offsetGet ArrayObject_offsetSet ArrayObject_offsetUnset
@@ -930,7 +934,7 @@ ziparchive_locatename ziparchive_open ziparchive_renameindex ziparchive_renamena
 ziparchive_setarchivecomment ziparchive_setcommentindex ziparchive_setcommentname ziparchive_statindex
 ziparchive_statname ziparchive_unchangeall ziparchive_unchangearchive ziparchive_unchangeindex
 ziparchive_unchangename zlib_get_coding_type
-/C6"Built-in Constants" STYLE_EXTENSION
+/C6"Built-in Constants" STYLE_EXTENSION Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 CL_EXPUNGE CP_MOVE CP_UID CRYPT_BLOWFISH CRYPT_EXT_DES CRYPT_MD5 CRYPT_STD_DES
 DOCUMENT_ROOT
 E_ALL E_CORE_ERROR E_CORE_WARNING E_ERROR E_NOTICE E_PARSE E_WARNING
@@ -965,12 +969,12 @@ XML_ERROR_PARAM_ENTITY_REF XML_ERROR_PARTIAL_CHAR XML_ERROR_RECURSIVE_ENTITY_REF
 XML_ERROR_TAG_MISMATCH XML_ERROR_UNCLOSED_CDATA_SECTION XML_ERROR_UNCLOSED_TOKEN
 XML_ERROR_UNDEFINED_ENTITY XML_ERROR_UNKNOWN_ENCODING XML_OPTION_CASE_FOLDING XML_OPTION_TARGET_ENCODING
 __CLASS__ __DIR__ __FILE__ __FUNCTION__ __LINE__ __METHOD__ __NAMESPACE__ __TRAIT__
-/C7"Built-in Variables" STYLE_VARIABLE
+/C7"Built-in Variables" STYLE_VARIABLE Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 $php_errormsg
 HTTP_COOKIE_VARS HTTP_GET_VARS HTTP_POST_VARS
 PHP_SELF
 argc argv
-/C8"Keywords" STYLE_KEYWORD
+/C8"Keywords" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 $GLOBALS $HTTP_COOKIE_VARS $HTTP_ENV_VARS $HTTP_GET_VARS $HTTP_POST_FILES $HTTP_POST_VARS
 $HTTP_SERVER_VARS $HTTP_SESSION_VARS $PHP_SELF $_COOKIE $_ENV $_FILES $_GET $_POST $_REQUEST $_SERVER
 $_SESSION $argc $argv $this

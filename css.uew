@@ -1,4 +1,8 @@
 /L11"CSS 1.0-2.1" CSS_LANG Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = \ DisableMLS File Extensions = CSS
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Functions"
 /TGFindStr = "^[ \t]*([ "#\*+,a-z0-9:=>@\[\]_a-z\|~]+)[ \t]*\{"
@@ -16,7 +20,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"HTML 4.01 Elements"
+/C1"HTML 4.01 Elements" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 a abbr acronym address applet area
 b base basefont bdo big blockquote body br button
 caption cite code col colgroup
@@ -36,7 +40,7 @@ s samp script select small span strike strong sub sup
 table tbody td textarea tfoot th thead title tr tt
 u ul
 var
-/C2"CSS Properties"
+/C2"CSS Properties" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 azimuth
 background background-attachment background-color background-image background-position background-repeat
 border border-bottom border-bottom-color border-bottom-style border-bottom-width border-collapse
@@ -61,7 +65,7 @@ unicode-bidi
 vertical-align visibility voice-family volume
 white-space widows width word-spacing
 z-index
-/C3"CSS Values"
+/C3"CSS Values" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 above absolute always armenian ascent attr auto avoid
 baseline behind below bidi-override blink block bold bolder both bottom
 cap-height capitalize center center-left center-right centerline child circle cjk-ideographic
@@ -92,14 +96,14 @@ visible
 w-resize wait wider
 x-fast x-height x-high x-large x-loud x-low x-slow x-small x-soft xx-large xx-small
 young
-/C4"Pseudo Classes"
+/C4"Pseudo Classes" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 active after
 before
 first-child first-letter first-line focus
 hover
 lang link
 visited
-/C5"Miscellaneous"
+/C5"Miscellaneous" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !important
 (
 )
@@ -119,7 +123,7 @@ visited
 |
 }
 ~
-/C6"Colors"
+/C6"Colors" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ** #0 #1 #2 #3 #4 #5 #6 #7 #8 #9
 ** #A0 #A1 #A2 #A3 #A4 #A5 #A6 #A7 #A8 #A9 #AA #AB #AC #AD #AE #AF
 ** #B0 #B1 #B2 #B3 #B4 #B5 #B6 #B7 #B8 #B9 #BA #BB #BC #BD #BE #BF
@@ -144,7 +148,7 @@ Scrollbar silver
 teal ThreeDDarkShadow ThreeDFace ThreeDHighlight ThreeDLightShadow ThreeDShadow
 white Window WindowFrame WindowText
 yellow
-/C7"Browser Proprietary"
+/C7"Browser Proprietary" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 -link-set -link-use -moz-alias -moz-appearance -moz-background-clip -moz-background-inline-policy
 -moz-background-origin -moz-binding -moz-border-bottom-colors -moz-border-left-colors -moz-border-radius
 -moz-border-radius-bottomleft -moz-border-radius-bottomright -moz-border-radius-topleft
@@ -236,7 +240,7 @@ voice-pitch voice-pitch-range voice-rate voice-stress voice-volume
 Wave weak white-space-collapse word-break word-wrap writing-mode
 x-strong x-weak XRay
 zoom
-/C8"Media Types/Neg. Numbers"
+/C8"Media Types/Neg. Numbers" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ** -0 -1 -2 -3 -4 -5 -6 -7 -8 -9
 @media
 all aural

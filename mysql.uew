@@ -1,4 +1,8 @@
 /L13"MySQL 5.1" SQL_LANG Nocase Line Comment = # Line Comment Alt = -- Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = SQL
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Tables"
 /TGFindStr = "^[ \t]*create table if not exists[ \t]+`*([a-z_0-9]+)`*"
@@ -15,7 +19,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Functions"
+/C1"Functions" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 abs acos adddate addtime aes_decrypt aes_encrypt against ascii asin atan atan2 avg
 begin benchmark bin bit_and bit_count bit_length bit_or bit_xor by
 case cast ceil ceiling char char_length character_length charset coercibility collation compress concat concat_ws connection_id conv convert convert_tz cos cot count crc32 curdate current_date current_time current_timestamp current_user curtime
@@ -39,7 +43,7 @@ values var_pop var_samp variance version
 week
 weekday weekofyear when where
 year yearweek
-/C2"Variable Types"
+/C2"Variable Types" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 bigint blob
 datetime decimal double doubleprecision
 enum
@@ -52,7 +56,7 @@ real
 smallint
 text tinyblob tinyint tinytext
 varbinary varchar varying
-/C3"Reserved Words"
+/C3"Reserved Words" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 accessible add all alter analyze and as asc asensitive
 before between both
 call cascade change character check column condition constraint continue create cross cursor
@@ -78,7 +82,7 @@ while with write
 x509
 year_month
 zerofill
-/C4"Operators"
+/C4"Operators" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !
 %
 &

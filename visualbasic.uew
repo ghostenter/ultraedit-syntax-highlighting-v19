@@ -1,4 +1,8 @@
 /L2"Visual Basic" VB_LANG Line Comment = ' File Extensions = BAS FRM CLS VB VBA CTL DSR
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Subs"
 /TGFindStr = "^[ \t]*[publicrvate]*[ \t]*Sub[ \t]*(.*)\("
@@ -24,7 +28,7 @@
 /Open Fold Strings = "Do While" "If" "ElseIf" "Function" "Sub" "With" "For" "Select Case" "Case Else" "Case" "Else"
 /Close Fold Strings = "ElseIf" "End If" "End Function" "End Sub" "End With" "Loop" "Next" "Wend" "End Select" "Case Else" "Case" "Else"
 /Ignore Fold Strings = "Exit Function" "Exit Sub" "Exit For" "Declare Function" "Continue For" "On Error Resume Next"
-/C1"Functions" STYLE_FUNCTION
+/C1"Functions" STYLE_FUNCTION Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Abs Array Asc AscB AscW Atn Avg
 CBool CByte CCur CDate CDbl CInt CLng CSng CStr CVDate CVErr CVar Cdec Choose Chr ChrB ChrW Command Cos
 Count CreateObject CurDir
@@ -48,7 +52,7 @@ UBound UCase
 Val Var VarP VarType
 Weekday
 Year
-/C2"Methods" STYLE_METHOD
+/C2"Methods" STYLE_METHOD Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Accept Activate Add AddCustom AddFile AddFromFile AddFromTemplate AddItem AddNew AddToAddInToolbar
 AddToolboxProgID Append AppendChunk Arrange Assert AsyncRead
 BatchUpdate BeginTrans Bind
@@ -87,7 +91,7 @@ Update UpdateControls UpdateRecord UpdateRow Upto
 WhatsThisMode WriteProperty
 ZOrder
 rdoCreateEnvironment rdoRegisterDataSource
-/C3"Events" STYLE_EVENT
+/C3"Events" STYLE_EVENT Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 AccessKeyPress AfterAddFile AfterChangeFileName AfterCloseFile AfterColEdit AfterColUpdate AfterDelete
 AfterInsert AfterLabelEdit AfterRemoveFile AfterUpdate AfterWriteFile AmbienChanged ApplyChanges Associate
 AsyncReadComplete AxisActivated AxisLabelActivated AxisLabelSelected AxisLabelUpdated AxisSelected
@@ -124,7 +128,7 @@ UnboundAddData UnboundDeleteRow UnboundGetRelativeBookmark UnboundReadData Unbou
 Updated
 Validate ValidationError
 WillAssociate WillChangeData WillDissociate WillExecute WillUpdateRows WithEvents WriteProperties
-/C4"Statements" STYLE_STATEMENT
+/C4"Statements" STYLE_STATEMENT Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 AppActivate
 Base Beep Boolean ByRef ByVal
 Call Case ChDir ChDrive Const
@@ -145,7 +149,7 @@ SavePicture SaveSetting SendKeys SetAttr Static Structure Sub
 Then To True Type
 Unlock
 Wend While Width With Write
-/C5"Operators" STYLE_OPERATOR
+/C5"Operators" STYLE_OPERATOR Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 &
 *
 +

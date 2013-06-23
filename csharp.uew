@@ -1,4 +1,8 @@
 /L7"C#" CSHARP_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' String Literal Prefix = @ File Extensions = CS
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /TGBegin "Functions"
 /TGFindStr = "^[ \t]*[a-z_\.0-9]+[ \t]+[a-z_\.0-9]+[ \t]+[a-z_\.0-9<>]+[ \t]+([0-9\\.a-z_ \t]*)\(+[^=;\n]+$"
@@ -30,7 +34,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{" "#region"
 /Close Fold Strings = "}" "#endregion"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 abstract as auto
 base break
 case catch const continue
@@ -49,7 +53,7 @@ this throw true try
 unsafe using
 virtual void
 while
-/C2"C# Data Types" STYLE_KEYWORD
+/C2"C# Data Types" STYLE_KEYWORD Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 bool byte
 char class
 decimal delegate double
@@ -60,9 +64,9 @@ long
 object
 sbyte short string struct
 uint ulong ushort
-/C3"C# Preprocessor Directives" STYLE_EXTENSION
+/C3"C# Preprocessor Directives" STYLE_EXTENSION Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 #define #elif #else #endif #endregion #error #if #line #region #undef #warning
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators" STYLE_OPERATOR Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 !
 %
 &

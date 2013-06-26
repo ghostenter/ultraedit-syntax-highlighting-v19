@@ -100,7 +100,7 @@ sigtrap strict subs
 utf8
 vars
 warnings
-/C4"Operators" STYLE_OPERATOR Colors = 2763429 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
+/C4"Operators" STYLE_OPERATOR Colors = 255 Colors Back = 199958 Colors Auto Back = 1 Font Style = 0
 !
 &
 *
